@@ -1,0 +1,154 @@
+/* DEFAULT CONFIGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --fc-blue-color: hsla(184, 65%, 41%, 1);
+  --fc-black-color: hsla(0, 0%, 19%, 1);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--fc-black-color);
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  max-width: 115rem;
+  margin: 4rem auto 0;
+}
+
+/* MENU STYLES */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+nav ul li a {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: var(--fc-blue-color);
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+
+.nav-buttons a:first-child:hover {
+  color: var(--fc-blue-color);
+  line-height: 2.1rem;
+}
+
+.nav-buttons a:nth-child(2) {
+  font-weight: 400;
+  color: var(--fc-blue-color);
+  border: 1px solid var(--fc-blue-color);
+  padding: 1.8rem 4.5rem;
+}
+
+.nav-buttons a:nth-child(2):hover {
+  background-color: var(--fc-blue-color);
+  color: #fff;
+}
+
+/* WELCOME STYLES */
+section {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 1.1rem;
+}
+
+.section-info h1 {
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 100%;
+  color: var(--fc-black-color);
+  margin-top: 23.3rem;
+}
+
+.section-info h1 span {
+  color: var(--fc-blue-color);
+  font-weight: 500;
+}
+
+.section-info p {
+  margin-top: 3rem;
+  max-width: 42.6rem;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.section-buttons {
+  width: 41rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.section-buttons a {
+  padding: 1.8rem 5.8rem;
+  border: 1px solid var(--fc-blue-color);
+  color: var(--fc-blue-color);
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.section-buttons a:first-child:hover,
+.section-buttons a + a:hover {
+  color: #fff;
+  background-color: var(--fc-blue-color);
+}
+
+section img {
+  max-width: 50rem;
+}
+
+/* PARTNERS CONTENT STYLES */
+.partners-content {
+  min-height: 17rem;
+  display: flex;
+  background-color: #f8f8f8;
+}
+
+.partners-logo {
+  margin: 0 auto;
+  max-width: 115rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
