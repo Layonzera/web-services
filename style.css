@@ -130,8 +130,7 @@ section {
 }
 
 .section-buttons a:first-child:hover,
-.section-buttons a + a:hover,
-.services-content a:hover {
+.section-buttons a + a:hover {
   color: #fff;
   background-color: var(--fc-blue-color);
 }
@@ -244,4 +243,41 @@ section img {
 .services-cards .card:nth-child(3),
 .services-cards .card:nth-child(4) {
   margin-top: 4rem;
+}
+
+/* FEATURES STYLES */
+.features-container {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 8rem;
+  background-color: #f8f8f8;
+}
+
+.features-container .texts {
+  width: 62rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.features-container .texts h1 {
+  font-size: 6.5rem;
+  font-weight: 400;
+  color: var(--fc-black-color);
+}
+
+.features-container .texts p {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: var(--fc-black-color);
+}
+
+.features-cards {
+  display: flex;
+  width: 110rem;
+  gap: 4rem;
 }
